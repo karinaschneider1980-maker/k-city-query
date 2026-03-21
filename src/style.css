@@ -1,3 +1,85 @@
 body {
-  background: rgb(170, 242, 170);
+  background-color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  margin: 100px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #e6062e;
+  text-shadow: 0px 1px 1px #02327c;
+}
+
+form {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  box-shadow: 5px 25px 35px rgba(65, 50, 100, 0.08);
+  margin-bottom: 30px;
+}
+
+.city {
+  padding: 16px;
+  border: 1px solid rgb(189, 211, 233);
+  width: 80%;
+  font-size: 17px;
+  border-radius: 50px;
+  line-height: 18px;
+  background-color: #c2e6ff;
+  color: #02327c;
+  border: none;
+}
+
+.submit-button {
+  margin-left: 10px;
+  padding: 15px 25px;
+  border: 1px solid rgb(189, 211, 233);
+  font-size: 14px;
+  border-radius: 50px;
+  line-height: 18px;
+  background-color: #e6062e;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.submit-button:hover {
+  background-color: #cb2302;
+  transition: 350 ease-in-out;
+}
+
+.results-cards {
+  background-color: white;
+  border-radius: 30px;
+  padding: 25px 30px;
+  box-shadow: 5px 25px 35px rgba(65, 50, 100, 0.08);
+  margin: 20px 0 30px 0;
+  font-size: 16px;
+  line-height: 28px;
+  color: #02327c;
+}
+
+.illustration {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  font-size: 12px;
+  color: #666;
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
 }
